@@ -48,7 +48,7 @@ Check out the **storybook demo** -> https://jira-storybook.trungk18.com/
 If you like my work, feel free to:
 
 - ⭐ this repository. And we will be happy together :)
-- [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] about Angular Jira clone
+- [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] about Structo
 - <a title="Thanks for your support!" href="https://www.buymeacoffee.com/tuantrungvo" target="_blank"><img src="https://res.cloudinary.com/dvujyxh7e/image/upload/c_thumb,w_140,g_face/v1596378474/default-orange_uthxgz.jpg" alt="Buy Me A Coffee"></a>
 
 Thanks a bunch for stopping by and supporting me!
@@ -144,7 +144,7 @@ While working with this application, I have the opportunity to revisit some of t
 
 I will take two weeks break to:
 
-- Fix bugs and UI enhancements for Angular Jira clone.
+- Fix bugs and UI enhancements for Structo.
 - Continue working with the [typescript-data-structures][typescript-dsa] repo.
 
 [typescript-dsa]: https://github.com/trungk18/typescript-data-structures
@@ -163,7 +163,7 @@ View the current [work in progress branch][gql]
 
 When I look at the application, it is huge. When the task is huge, you usually don't know where and how to start working with them. I started to break the big task into a [simple to-do list on notion][todo-list]. Once I know what needs to be done, what I need is to follow the plan. That's my approach.
 
-I learned a lot of stuff. I know you might also have a curiosity about the process of building the same scale app as well. That's why I am writing a tutorial series on how I built Angular Jira clone from scratch. I hope you guys will learn something from that too :)
+I learned a lot of stuff. I know you might also have a curiosity about the process of building the same scale app as well. That's why I am writing a tutorial series on how I built Structo from scratch. I hope you guys will learn something from that too :)
 
 I will try to be as detailed as possible. Hopefully through the tutorial, you will get the idea and will start working on your own application soon. Please bear with me.
 
@@ -198,7 +198,7 @@ Its series will also be published in Vietnamese as part of our [angular-vietnam/
 
 ## Time spending
 
-It is a side project that I only spent time outside of the office hours to work on. One day, my team and I were fire fighting on PROD until 11 PM. After taking a shower, I continue with Angular Jira clone for another two hours...
+It is a side project that I only spent time outside of the office hours to work on. One day, my team and I were fire fighting on PROD until 11 PM. After taking a shower, I continue with Structo for another two hours...
 
 According to waka time report, I have spent about 45 hours working on this project. Which is equivalent to watch the [whole Stranger Things series twice][stranger].
 

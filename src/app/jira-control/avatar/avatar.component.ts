@@ -17,7 +17,10 @@ export class AvatarComponent {
       width: `${this.size}px`,
       height: `${this.size}px`,
       'background-image': `url('${this.avatarUrl}')`,
+      'background-size': 'contain',  // or 'contain' based on your requirement
+      'background-position': 'center',
+      'object-fit': 'contain',
       'border-radius': this.rounded ? '100%' : '3px'
     };
-  }
+  }  
 }
