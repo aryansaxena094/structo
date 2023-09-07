@@ -16,7 +16,7 @@ export class ProjectConst {
   ];
 
   static IssueTypesWithIcon: IssueTypeWithIcon[] = [
-    new IssueTypeWithIcon(IssueType.BUG),
+    new IssueTypeWithIcon(IssueType.FIX),
     new IssueTypeWithIcon(IssueType.STORY),
     new IssueTypeWithIcon(IssueType.TASK)
   ];

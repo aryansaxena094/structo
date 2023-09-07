@@ -5,21 +5,20 @@ import { JComment } from './comment';
 export enum IssueType {
   STORY = 'Story',
   TASK = 'Task',
-  BUG = 'Bug'
+  FIX = 'FIX'
 }
 
 export enum IssueStatus {
-  BACKLOG = 'Backlog',
-  SELECTED = 'Selected',
-  // eslint-disable-next-line @typescript-eslint/naming-convention
-  IN_PROGRESS = 'InProgress',
+  TODO = 'To-Do',
+  IN_PROGRESS = 'In progress',
+  BLOCKED = 'Blocked',
   DONE = 'Done'
 }
 
 export const IssueStatusDisplay = {
-  [IssueStatus.BACKLOG]: 'Backlog',
-  [IssueStatus.SELECTED]: 'Selected for Development',
+  [IssueStatus.TODO]: 'To-Do',
   [IssueStatus.IN_PROGRESS]: 'In progress',
+  [IssueStatus.BLOCKED]: 'Blocked',
   [IssueStatus.DONE]: 'Done'
 };
 

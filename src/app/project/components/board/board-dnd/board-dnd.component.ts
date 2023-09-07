@@ -11,9 +11,9 @@ import { AuthQuery } from '@trungk18/project/auth/auth.query';
 })
 export class BoardDndComponent {
   issueStatuses: IssueStatus[] = [
-    IssueStatus.BACKLOG,
-    IssueStatus.SELECTED,
+    IssueStatus.TODO,
     IssueStatus.IN_PROGRESS,
+    IssueStatus.BLOCKED,
     IssueStatus.DONE
   ];
 

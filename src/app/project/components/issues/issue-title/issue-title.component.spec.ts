@@ -26,8 +26,8 @@ describe('IssueTitleComponent', () => {
     component.issue = {
       id: '',
       title: 'New title',
-      type: IssueType.BUG,
-      status: IssueStatus.BACKLOG,
+      type: IssueType.FIX,
+      status: IssueStatus.TODO,
       priority: IssuePriority.HIGH,
       listPosition: 0,
       description: '',
@@ -50,8 +50,8 @@ describe('IssueTitleComponent', () => {
     component.issue = {
       id: '',
       title: 'New title 2',
-      type: IssueType.BUG,
-      status: IssueStatus.BACKLOG,
+      type: IssueType.FIX,
+      status: IssueStatus.TODO,
       priority: IssuePriority.HIGH,
       listPosition: 0,
       description: '',

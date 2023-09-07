@@ -69,7 +69,7 @@ export class AddIssueModalComponent implements OnInit {
     const issue: JIssue = {
       ...this.issueForm.getRawValue(),
       id: IssueUtil.getRandomId(),
-      status: IssueStatus.BACKLOG,
+      status: IssueStatus.TODO, 
       createdAt: now,
       updatedAt: now
     };

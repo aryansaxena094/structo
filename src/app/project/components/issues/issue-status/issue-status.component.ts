@@ -14,9 +14,9 @@ export class IssueStatusComponent implements OnInit {
   IssueStatusDisplay = IssueStatusDisplay;
 
   variants = {
-    [IssueStatus.BACKLOG]: 'btn-secondary',
-    [IssueStatus.SELECTED]: 'btn-secondary',
-    [IssueStatus.IN_PROGRESS]: 'btn-primary',
+    [IssueStatus.TODO]: 'btn-secondary',
+    [IssueStatus.IN_PROGRESS]: 'btn-secondary',
+    [IssueStatus.BLOCKED]: 'btn-primary',
     [IssueStatus.DONE]: 'btn-success'
   };
 
@@ -26,9 +26,9 @@ export class IssueStatusComponent implements OnInit {
 
   ngOnInit(): void {
     this.issueStatuses = [
-      new IssueStatusValueTitle(IssueStatus.BACKLOG),
-      new IssueStatusValueTitle(IssueStatus.SELECTED),
+      new IssueStatusValueTitle(IssueStatus.TODO),
       new IssueStatusValueTitle(IssueStatus.IN_PROGRESS),
+      new IssueStatusValueTitle(IssueStatus.BLOCKED),
       new IssueStatusValueTitle(IssueStatus.DONE)
     ];
   }

@@ -31,19 +31,6 @@
 
                 <div class="pt-px text-15">{{ link.name }}</div>
             </a>
-            <div *ngIf="!link.url"
-                 class="link not-allowed">
-
-                <svg-icon class="mr-4"
-                          [name]="link.icon"
-                          [size]="24">
-                </svg-icon>
-
-                <div class="pt-px text-15">{{ link.name }}</div>
-                <div class="not-implemented">
-                    Not implemented
-                </div>
-            </div>
 
             <div *ngIf="idx === 1"
                  class="divider"></div>
