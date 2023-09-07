@@ -10,43 +10,43 @@
     {
       "id": "AR1",
       "name": "Architect",
-      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1593253478/trung-vo_bioxmc.png",
+      "avatarUrl": "./assets/img/Icons/1.png",
       "projectId": "2023_1"
     },
     {
       "id": "CL1",
       "name": "Client",
-      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1592405732/ironman_c3jrbc.jpg",
+      "avatarUrl": "./assets/img/Icons/2.png",
       "projectId": "2023_1"
     },
     {
       "id": "CO1",
       "name": "Civil Contractor",
-      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1592405732/captain_e8s9nk.jpg",
+      "avatarUrl": "./assets/img/Icons/3.png",
       "projectId": "2023_1"
     },
     {
       "id": "PC1",
       "name": "Plumbing Contractor",
-      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1592405731/thor_juqwzf.jpg",
+      "avatarUrl": "./assets/img/Icons/4.png",
       "projectId": "2023_1"
     },
     {
       "id": "EC1",
       "name": "Electrical Contractor",
-      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1592405731/spiderman_zlrtx0.jpg",
+      "avatarUrl": "./assets/img/Icons/5.png",
       "projectId": "2023_1"
     },
     {
       "id": "CC1",
       "name": "Carpentry Contractor",
-      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1592405731/spiderman_zlrtx0.jpg",
+      "avatarUrl": "./assets/img/Icons/6.png",
       "projectId": "2023_1"
     },
     {
       "id": "FC1",
       "name": "False Ceiling Contractor",
-      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1592405731/spiderman_zlrtx0.jpg",
+      "avatarUrl": "./assets/img/Icons/7.png",
       "projectId": "2023_1"
     }
   ],
